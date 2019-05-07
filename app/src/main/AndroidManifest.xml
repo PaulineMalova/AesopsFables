@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gamecodeschool.fables">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TheFisherFable"
+            android:label="@string/title_activity_the_fisher_fable"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheVainJackdaw"
+            android:label="@string/title_activity_the_vain_jackdaw"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheAssAndTheCharger"
+            android:label="@string/title_activity_the_ass_and_the_charger"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheCamelAndTheArab"
+            android:label="@string/title_activity_the_camel_and_the_arab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheLionAndTheMouseFable"
+            android:label="@string/title_activity_the_lion_and_the_mouse_fable"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheBaldManAndTheFlyFable"
+            android:label="@string/title_activity_the_bald_man_and_the_fly_fable"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheOldManAndDeathFable"
+            android:label="@string/title_activity_the_old_man_and_death_fable"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheLionInLoveFable"
+            android:label="@string/title_activity_the_lion_in_love_fable"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheBoysAndTheFrogs"
+            android:label="@string/title_activity_the_boys_and_the_frogs"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TheMischievousDog"
+            android:label="@string/title_activity_the_mischievous_dog"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gamecodeschool.fables.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
